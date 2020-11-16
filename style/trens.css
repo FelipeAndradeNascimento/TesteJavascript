@@ -1,0 +1,69 @@
+header {
+	background: #BBBBBB;
+	padding: 20px 0;
+}
+
+.caixa{
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+a {
+	text-decoration: none; 
+}
+
+a:hover{
+	color:#C78C19;
+	text-decoration:underline;
+}
+
+.listaTrens {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.listaTrens li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing : border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.listaTrens li:hover {
+		border-color: #C78C19;
+}
+
+.listaTrens li:active {
+		border-color: #088C19;
+}
+
+.listaTrens li:hover h2{
+		font-size: 34px;
+}
+
+.listaTrens h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.trem-img{
+	width: 50px;
+	height: 50px;	
+}
+
+footer{
+	text-align: center;
+	padding: 40px 0;
+}
